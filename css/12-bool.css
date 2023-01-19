@@ -11,11 +11,9 @@
 }
 
 .row{
-    padding: 12px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    min-height: 100%;
 }
 
 .col{
