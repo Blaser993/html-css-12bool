@@ -1,7 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+
+[class ^= "col-"]{
+    background-color: rgb(7, 164, 255);
+    border: 1px solid blue;
+    color: aliceblue;
+    padding: 12px;
+    min-height: 100%;
+}
+
+.container{
+    padding: 24px;
+}
+
+.row{
+    min-height: 100%;
 }
 
 .row .row [class ^= "col-"]{

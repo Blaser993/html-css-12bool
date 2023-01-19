@@ -1,15 +1,13 @@
-[class ^= "col-"]{
-    background-color: rgb(7, 164, 255);
-    border: 1px solid blue;
-    color: aliceblue;
-    padding: 12px;
-    min-height: 100%;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .container{
     max-width: 1170px;
     margin: 0 auto;
-    padding: 24px;
+
 }
 
 .row{
@@ -24,7 +22,6 @@
     flex-grow: 1;
     flex-basis: 0;
     max-width: 100%;
-    text-align: center;
 }
 
 /* COL SIZE DEFAULT */
