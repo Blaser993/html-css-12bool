@@ -59,8 +59,18 @@
     min-height: 100%;
 }
 
+[class ^= "white"]{
+    background-color: rgb(255, 255, 255);
+    aspect-ratio: 1;
+    min-height: 100%;
+}
+
 .row{
     padding: 0;
+}
+
+.row.row-col{
+    flex-direction: column;
 }
 
 @media screen and (min-width: 992px){
