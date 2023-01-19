@@ -3,3 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.row .row [class ^= "col-"]{
+    background-color: rgb(23, 139, 0);
+    border: 1px solid  rgb(7, 164, 255);
+    color: aliceblue;
+    padding: 12px;
+}
